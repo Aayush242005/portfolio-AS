@@ -409,3 +409,44 @@ header {
   transform: scale(1.03);
   background-color: #062f3a;
 }
+.resume-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #07374a;
+  color: #f0f0e6;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: 500;
+  transition: background 0.3s ease;
+}
+
+.resume-button:hover {
+  background-color: #062f3a;
+  color: #25b79f;
+}
+
+/* Certification cards grid style */
+.cert-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 700px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.cert-card {
+  background-color: #07374a;
+  color: #f0f0e6;
+  padding: 1rem 1.5rem;
+  font-size: 1.1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.cert-card:hover {
+  transform: translateY(-5px);
+}
+
