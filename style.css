@@ -196,73 +196,9 @@ header {
   }
 }
 
-.progress-line .html::after { content: "80%"; }
-.progress-line .css::after { content: "70%"; }
-.progress-line .bootstrap::after { content: "50%"; }
-.progress-line .javascript::after { content: "50%"; }
-.progress-line .c::after { content: "50%"; }
+/* Removed percentage labels & arrows */
 
-.bar .progress-line span::before {
-  position: absolute;
-  content: "";
-  height: 0;
-  right: 0;
-  top: -12px;
-  width: 0;
-  border: 7px solid transparent;
-  border-bottom-width: 0px;
-  border-right-width: 0px;
-  border-top-color: #f0f0f0;
-}
-
-.bar .progress-line span::after {
-  position: absolute;
-  right: 0;
-  top: -28px;
-  color: #07374a;
-  font-size: 12px;
-  font-weight: 700;
-  background: #f0f0f0;
-  padding: 1px 8px;
-  border-radius: 3px;
-}
-
-.navbar.solid {
-  background-color: #07374a;
-  transition: background-color 1s ease 0s;
-  box-shadow: 0 0 4px rgb(7 55 74 / 20%);
-  z-index: 500;
-}
-
-.navbar.solid .navbar-brand {
-  display: inline-block;
-  color: #f0f0e6;
-  transition: color 1s ease 0s;
-}
-
-.navbar-brand {
-  display: none;
-  color: #f0f0e6;
-  font-weight: 400;
-}
-
-.work-arrow,
-.work-arrow-2 {
-  margin: 2rem 0;
-}
-
-.work-arrow a,
-.work-arrow-2 a {
-  font-size: 1rem;
-  text-decoration: none;
-  color: #25b79f;
-}
-
-.work-arrow-2 a {
-  display: none;
-}
-
-/* ////.....Portfolio......///// */
+/* ////.....Projects......///// */
 
 .portfolio {
   background: #25b79f;
@@ -345,8 +281,6 @@ header {
   color: #f0f0e6;
 }
 
-/* ////......Contact Button......//// */
-
 .contact-button-container {
   text-align: center;
   margin: 20px;
@@ -409,22 +343,6 @@ header {
   transform: scale(1.03);
   background-color: #062f3a;
 }
-.resume-button {
-  display: inline-block;
-  margin-top: 20px;
-  padding: 10px 20px;
-  background-color: #07374a;
-  color: #f0f0e6;
-  text-decoration: none;
-  border-radius: 5px;
-  font-weight: 500;
-  transition: background 0.3s ease;
-}
-
-.resume-button:hover {
-  background-color: #062f3a;
-  color: #25b79f;
-}
 
 /* Certification cards grid style */
 .cert-cards {
@@ -449,4 +367,3 @@ header {
 .cert-card:hover {
   transform: translateY(-5px);
 }
-
